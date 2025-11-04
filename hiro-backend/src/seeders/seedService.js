@@ -1,4 +1,3 @@
-// src/scripts/serviceSeeder.js
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Service from "../models/Service.js";
