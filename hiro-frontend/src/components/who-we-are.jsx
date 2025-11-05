@@ -5,11 +5,15 @@ export default function WhoWeAre() {
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-sm font-semibold text-blue-500 tracking-widest mb-2">WHO WE ARE</p>
-          <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">COMPLETE CATERING SERVICES</h2>
+          {/* Sauce smudge effect - fades from left to right */}
+          <div className="relative inline-block">
+            <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">COMPLETE CATERING SERVICES</h2>
+            <div className="absolute -bottom-4 left-0 w-full h-6 bg-gradient-to-r from-amber-600 via-orange-500 to-transparent opacity-60 blur-sm rounded-full"></div>
+          </div>
         </div>
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch pt-4">
           {/* Left - Image */}
           <div className="flex items-center justify-center">
             <img

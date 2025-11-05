@@ -42,8 +42,7 @@ export default function StatsAndTestimonials() {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
               backgroundImage: "url(/elegant-event-catering.jpg)",
-              filter: "blur(8px)",
-              opacity: 0.15,
+              opacity: 0.05,
             }}
           ></div>
           <div className="absolute inset-0 bg-slate-900"></div>
@@ -71,8 +70,7 @@ export default function StatsAndTestimonials() {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
               backgroundImage: "url(/elegant-event-catering.jpg)",
-              filter: "blur(12px)",
-              opacity: 0.08,
+              opacity: 0.03,
               zIndex: 0,
             }}
           ></div>
