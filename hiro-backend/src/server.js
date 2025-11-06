@@ -10,6 +10,7 @@ import userRoutes from "./routes/userRoutes.js"
 import staffRoutes from "./routes/staffRoutes.js"
 // import toolRoutes from "./routes/toolRoutes.js"
 import bookingRoutes from "./routes/bookingRoutes.js"
+import imageRoutes from "./routes/imageRoutes.js"
 
 dotenv.config();
 
@@ -48,7 +49,8 @@ const startServer = async () => {
     app.use("/api/users", userRoutes);
     app.use("/api/staff", staffRoutes);
     // app.use("/api/tools", toolRoutes);
-    app.use("/api/bookings", bookingRoutes);
+      app.use("/api/bookings", bookingRoutes);
+      app.use("/api/images", imageRoutes);
 
     const PORT = process.env.PORT || 5000;
     app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
